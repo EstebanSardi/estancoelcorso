@@ -2,7 +2,7 @@ import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL = 'http://localhost:5000/api/clientes/';
+const URL = 'http://172.173.138.200:5000/api/clientes/';
 
 const CompEditarClientes = () => {
 
